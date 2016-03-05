@@ -2,7 +2,9 @@
 
 This is a Maven plugin for [Violation Comments to GitHub Lib](https://github.com/tomasbjerre/violation-comments-to-github-lib).
 
-You can have a look at [violations-test](https://github.com/tomasbjerre/violations-test/pull/1) to see what the result may look like.
+It can be used in Travis, or any other build server, to read results from static code analysis like Findbugs, PMD, Checkstyle, JSHint and/or CSSLint and comment pull requests in GitHub with them.
+
+You can have a look at [violations-test](https://github.com/tomasbjerre/violations-test/pull/2) to see what the result may look like.
 
 ## Usage ##
 There is a running example [here](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/tree/master/violation-comments-to-github-maven-plugin-example).
@@ -13,7 +15,7 @@ Here is and example:
 	<plugin>
 		<groupId>se.bjurr.violations</groupId>
 		<artifactId>violation-comments-to-github-maven-plugin</artifactId>
-		<version>1.0-SNAPSHOT</version>
+		<version>1.0</version>
 		<executions>
 			<execution>
 				<id>ViolationCommentsToGitHub</id>
@@ -25,8 +27,11 @@ Here is and example:
 					<password>${GITHUB_PASSWORD}</password>
 					<oAuth2Token>${GITHUB_OAUTH2TOKEN}</oAuth2Token>
 					<pullRequestId>${GITHUB_PULLREQUESTID}</pullRequestId>
-					<repositoryOwner>owner</repositoryOwner>
+					<repositoryOwner>tomasbjerre</repositoryOwner>
+					<repositoryName>violations-test</repositoryName>
 					<gitHubUrl>https://api.github.com/</gitHubUrl>
+					<createCommentWithAllSingleFileComments>false</createCommentWithAllSingleFileComments>
+					<createSingleFileComments>true</createSingleFileComments>
 					<violations>
 						<violation>
 							<violation>
