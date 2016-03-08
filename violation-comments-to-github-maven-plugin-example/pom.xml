@@ -27,6 +27,7 @@
 					<gitHubUrl>https://api.github.com/</gitHubUrl>
 					<createCommentWithAllSingleFileComments>false</createCommentWithAllSingleFileComments>
 					<createSingleFileComments>true</createSingleFileComments>
+					<commentOnlyChangedContent>true</commentOnlyChangedContent>
 					<violations>
 						<violation>
 							<reporter>FINDBUGS</reporter>

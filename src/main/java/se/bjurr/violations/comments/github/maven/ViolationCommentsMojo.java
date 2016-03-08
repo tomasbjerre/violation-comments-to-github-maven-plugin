@@ -41,6 +41,8 @@ public class ViolationCommentsMojo extends AbstractMojo {
  private final boolean createSingleFileComments = true;
  @Parameter(property = "violations", required = false)
  private final List<ViolationConfig> violations = newArrayList();
+ @Parameter(property = "commentOnlyChangedContent", required = false)
+ private final boolean commentOnlyChangedContent = true;
 
  @Override
  public void execute() throws MojoExecutionException {
@@ -82,6 +84,7 @@ public class ViolationCommentsMojo extends AbstractMojo {
      .withViolations(allParsedViolations)//
      .withCreateCommentWithAllSingleFileComments(createCommentWithAllSingleFileComments)//
      .withCreateSingleFileComments(createSingleFileComments)//
+     .withCommentOnlyChangedContent(commentOnlyChangedContent)//
      .toPullRequest();
   } catch (Exception e) {
    getLog().error("", e);
