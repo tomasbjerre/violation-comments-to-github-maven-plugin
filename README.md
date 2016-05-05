@@ -8,7 +8,6 @@ You can have a look at [violations-test](https://github.com/tomasbjerre/violatio
 
 It supports:
  * [_AndoidLint_](http://developer.android.com/tools/help/lint.html)
- * [_AndoidLint_](http://developer.android.com/tools/help/lint.html)
  * [_Checkstyle_](http://checkstyle.sourceforge.net/)
  * [_CPPLint_](https://github.com/theandrewdavis/cpplint)
  * [_CPPCheck_](http://cppcheck.sourceforge.net/)
