@@ -21,7 +21,6 @@ It supports:
  * [_PiTest_](http://pitest.org/)
  * [_PMD_](https://pmd.github.io/)
  * [_ReSharper_](https://www.jetbrains.com/resharper/)
- * [_StyleCop_](https://stylecop.codeplex.com/) Not fully supported. Cannot figure out how to get the filename from the reportfile.
  * [_XMLLint_](http://xmlsoft.org/xmllint.html)
  
 ## Usage ##
@@ -33,7 +32,7 @@ Here is and example:
 	<plugin>
 		<groupId>se.bjurr.violations</groupId>
 		<artifactId>violation-comments-to-github-maven-plugin</artifactId>
-		<version>1.8</version>
+		<version>1.9</version>
 		<executions>
 			<execution>
 				<id>ViolationCommentsToGitHub</id>
