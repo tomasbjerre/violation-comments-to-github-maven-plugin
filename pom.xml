@@ -69,7 +69,7 @@
 		<dependency>
 			<groupId>se.bjurr.violations</groupId>
 			<artifactId>violation-comments-to-github-lib</artifactId>
-			<version>1.12</version>
+			<version>1.13</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
