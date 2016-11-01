@@ -34,7 +34,7 @@ Here is and example:
 	<plugin>
 		<groupId>se.bjurr.violations</groupId>
 		<artifactId>violation-comments-to-github-maven-plugin</artifactId>
-		<version>1.14</version>
+		<version>1.15</version>
 		<executions>
 			<execution>
 				<id>ViolationCommentsToGitHub</id>
