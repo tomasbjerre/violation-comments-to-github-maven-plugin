@@ -1,10 +1,10 @@
 package se.bjurr.violations.comments.github.maven;
 
-import static com.google.common.collect.Lists.newArrayList;
 import static org.apache.maven.plugins.annotations.LifecyclePhase.NONE;
 import static se.bjurr.violations.comments.github.lib.ViolationCommentsToGitHubApi.violationCommentsToGitHubApi;
 import static se.bjurr.violations.lib.ViolationsReporterApi.violationsReporterApi;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.maven.plugin.AbstractMojo;
@@ -40,7 +40,7 @@ public class ViolationCommentsMojo extends AbstractMojo {
  @Parameter(property = "createSingleFileComments", required = false)
  private final boolean createSingleFileComments = true;
  @Parameter(property = "violations", required = false)
- private final List<ViolationConfig> violations = newArrayList();
+ private final List<ViolationConfig> violations = new ArrayList<ViolationConfig>();
  @Parameter(property = "commentOnlyChangedContent", required = false)
  private final boolean commentOnlyChangedContent = true;
 
@@ -62,7 +62,7 @@ public class ViolationCommentsMojo extends AbstractMojo {
 
   getLog().info("Will comment PR " + repositoryOwner + "/" + repositoryName + "/" + pullRequestId + " on " + gitHubUrl);
 
-  List<Violation> allParsedViolations = newArrayList();
+  List<Violation> allParsedViolations = new ArrayList<Violation>();
   for (ViolationConfig configuredViolation : violations) {
    List<Violation> parsedViolations = violationsReporterApi()//
      .findAll(Reporter.valueOf(configuredViolation.getReporter()))//
