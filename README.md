@@ -52,7 +52,7 @@ Here is and example:
 	<plugin>
 		<groupId>se.bjurr.violations</groupId>
 		<artifactId>violation-comments-to-github-maven-plugin</artifactId>
-		<version>1.19</version>
+		<version>1.20</version>
 		<executions>
 			<execution>
 				<id>ViolationCommentsToGitHub</id>
