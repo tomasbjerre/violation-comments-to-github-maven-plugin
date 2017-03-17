@@ -6,6 +6,8 @@ It can be used in Travis, or any other build server, to read results from static
 
 You can have a look at [violations-test](https://github.com/tomasbjerre/violations-test/pull/2) to see what the result may look like.
 
+The merge must be performed in order for the commented lines in the PR to match the lines reported by the analysis tools!
+
 It supports:
  * [_AndoidLint_](http://developer.android.com/tools/help/lint.html)
  * [_Checkstyle_](http://checkstyle.sourceforge.net/)
@@ -52,7 +54,7 @@ Here is and example:
 	<plugin>
 		<groupId>se.bjurr.violations</groupId>
 		<artifactId>violation-comments-to-github-maven-plugin</artifactId>
-		<version>1.20</version>
+		<version>1.21</version>
 		<executions>
 			<execution>
 				<id>ViolationCommentsToGitHub</id>
@@ -70,6 +72,7 @@ Here is and example:
 					<createCommentWithAllSingleFileComments>false</createCommentWithAllSingleFileComments>
 					<createSingleFileComments>true</createSingleFileComments>
 					<commentOnlyChangedContent>true</commentOnlyChangedContent>
+					<!-- INFO, WARN, ERROR //-->
 					<minSeverity>INFO</minSeverity>
 					<violations>
 						<violation>
