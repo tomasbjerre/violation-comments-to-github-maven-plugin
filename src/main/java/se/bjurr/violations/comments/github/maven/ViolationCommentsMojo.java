@@ -3,6 +3,7 @@ package se.bjurr.violations.comments.github.maven;
 import static org.apache.maven.plugins.annotations.LifecyclePhase.NONE;
 import static se.bjurr.violations.comments.github.lib.ViolationCommentsToGitHubApi.violationCommentsToGitHubApi;
 import static se.bjurr.violations.lib.ViolationsReporterApi.violationsReporterApi;
+import static se.bjurr.violations.lib.model.SEVERITY.INFO;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,8 +13,10 @@ import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
 
+import se.bjurr.violations.lib.model.SEVERITY;
 import se.bjurr.violations.lib.model.Violation;
 import se.bjurr.violations.lib.reports.Reporter;
+import se.bjurr.violations.lib.util.Filtering;
 
 @Mojo(name = "violation-comments", defaultPhase = NONE)
 public class ViolationCommentsMojo extends AbstractMojo {
@@ -43,6 +46,8 @@ public class ViolationCommentsMojo extends AbstractMojo {
  private final List<ViolationConfig> violations = new ArrayList<ViolationConfig>();
  @Parameter(property = "commentOnlyChangedContent", required = false)
  private final boolean commentOnlyChangedContent = true;
+ @Parameter(property = "minSeverity", required = false)
+ private final SEVERITY minSeverity = INFO;
 
  @Override
  public void execute() throws MojoExecutionException {
@@ -69,6 +74,7 @@ public class ViolationCommentsMojo extends AbstractMojo {
      .inFolder(configuredViolation.getFolder())//
      .withPattern(configuredViolation.getPattern())//
      .violations();
+   allParsedViolations = Filtering.withAtLEastSeverity(allParsedViolations, minSeverity);
    allParsedViolations.addAll(parsedViolations);
   }
 

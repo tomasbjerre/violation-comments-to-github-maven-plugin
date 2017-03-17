@@ -28,6 +28,7 @@
 					<createCommentWithAllSingleFileComments>false</createCommentWithAllSingleFileComments>
 					<createSingleFileComments>true</createSingleFileComments>
 					<commentOnlyChangedContent>true</commentOnlyChangedContent>
+					<minSeverity>INFO</minSeverity>
 					<violations>
 						<violation>
 							<reporter>FINDBUGS</reporter>

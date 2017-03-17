@@ -70,6 +70,7 @@ Here is and example:
 					<createCommentWithAllSingleFileComments>false</createCommentWithAllSingleFileComments>
 					<createSingleFileComments>true</createSingleFileComments>
 					<commentOnlyChangedContent>true</commentOnlyChangedContent>
+					<minSeverity>INFO</minSeverity>
 					<violations>
 						<violation>
 							<violation>
