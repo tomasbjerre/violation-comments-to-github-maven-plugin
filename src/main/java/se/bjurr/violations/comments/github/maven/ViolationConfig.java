@@ -3,8 +3,10 @@ package se.bjurr.violations.comments.github.maven;
 import org.apache.maven.plugins.annotations.Parameter;
 
 public class ViolationConfig {
- @Parameter(property = "reporter", required = true)
- private String reporter;
+	 @Parameter(property = "reporter", required = false)
+	 private String reporter;
+	 @Parameter(property = "parser", required = true)
+	 private String parser;
  @Parameter(property = "folder", required = true)
  private String folder;
  @Parameter(property = "pattern", required = false)
@@ -21,7 +23,11 @@ public class ViolationConfig {
  public void setReporter(String reporter) {
   this.reporter = reporter;
  }
-
+public void setParser(String parser) {
+	this.parser = parser;
+}public String getParser() {
+	return parser;
+}
  public String getFolder() {
   return folder;
  }

@@ -15,7 +15,7 @@ import org.apache.maven.plugins.annotations.Parameter;
 
 import se.bjurr.violations.lib.model.SEVERITY;
 import se.bjurr.violations.lib.model.Violation;
-import se.bjurr.violations.lib.reports.Reporter;
+import se.bjurr.violations.lib.reports.Parser;
 import se.bjurr.violations.lib.util.Filtering;
 
 @Mojo(name = "violation-comments", defaultPhase = NONE)
@@ -70,9 +70,10 @@ public class ViolationCommentsMojo extends AbstractMojo {
   List<Violation> allParsedViolations = new ArrayList<Violation>();
   for (ViolationConfig configuredViolation : violations) {
    List<Violation> parsedViolations = violationsReporterApi()//
-     .findAll(Reporter.valueOf(configuredViolation.getReporter()))//
+     .findAll(Parser.valueOf(configuredViolation.getParser()))//
      .inFolder(configuredViolation.getFolder())//
      .withPattern(configuredViolation.getPattern())//
+     .withReporter(configuredViolation.getReporter())//
      .violations();
    allParsedViolations = Filtering.withAtLEastSeverity(allParsedViolations, minSeverity);
    allParsedViolations.addAll(parsedViolations);

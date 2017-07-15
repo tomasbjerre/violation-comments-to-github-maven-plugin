@@ -31,27 +31,32 @@
 					<minSeverity>INFO</minSeverity>
 					<violations>
 						<violation>
-							<reporter>FINDBUGS</reporter>
+							<parser>FINDBUGS</parser>
+							<reporter>Findbugs</reporter>
 							<folder>.</folder>
 							<pattern>.*/findbugs/.*\.xml$</pattern>
 						</violation>
 						<violation>
+							<parser>PMD</parser>
 							<reporter>PMD</reporter>
 							<folder>.</folder>
 							<pattern>.*/pmd/.*\.xml$</pattern>
 						</violation>
 						<violation>
-							<reporter>CHECKSTYLE</reporter>
+							<parser>CHECKSTYLE</parser>
+							<reporter>Checkstyle</reporter>
 							<folder>.</folder>
 							<pattern>.*/checkstyle/.*\.xml$</pattern>
 						</violation>
 						<violation>
-							<reporter>JSHINT</reporter>
+							<parser>JSHINT</parser>
+							<reporter>JSHint</reporter>
 							<folder>.</folder>
 							<pattern>.*/jshint/.*\.xml$</pattern>
 						</violation>
 						<violation>
-							<reporter>CSSLINT</reporter>
+							<parser>CSSLINT</parser>
+							<reporter>CSSLint</reporter>
 							<folder>.</folder>
 							<pattern>.*/csslint/.*\.xml$</pattern>
 						</violation>
