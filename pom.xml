@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>se.bjurr.violations</groupId>
 	<artifactId>violation-comments-to-github-maven-plugin</artifactId>
@@ -114,6 +115,23 @@
 					<goals>deploy</goals>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>se.bjurr.gitchangelog</groupId>
+				<artifactId>git-changelog-maven-plugin</artifactId>
+				<version>1.47</version>
+				<executions>
+					<execution>
+						<id>GenerateGitChangelog</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>git-changelog</goal>
+						</goals>
+						<configuration>
+							<file>CHANGELOG.md</file>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 
@@ -139,23 +157,6 @@
 								<goals>
 									<goal>sign</goal>
 								</goals>
-							</execution>
-						</executions>
-					</plugin>
-					<plugin>
-						<groupId>se.bjurr.gitchangelog</groupId>
-						<artifactId>git-changelog-maven-plugin</artifactId>
-						<version>1.19</version>
-						<executions>
-							<execution>
-								<id>GenerateGitChangelog</id>
-								<phase>generate-sources</phase>
-								<goals>
-									<goal>git-changelog</goal>
-								</goals>
-								<configuration>
-									<filePath>CHANGELOG.md</filePath>
-								</configuration>
 							</execution>
 						</executions>
 					</plugin>

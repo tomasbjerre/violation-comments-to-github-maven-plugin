@@ -60,7 +60,7 @@ Here is and example:
 	<plugin>
 		<groupId>se.bjurr.violations</groupId>
 		<artifactId>violation-comments-to-github-maven-plugin</artifactId>
-		<version>1.24</version>
+		<version>1.25</version>
 		<executions>
 			<execution>
 				<id>ViolationCommentsToGitHub</id>
@@ -82,31 +82,34 @@ Here is and example:
 					<minSeverity>INFO</minSeverity>
 					<violations>
 						<violation>
-							<violation>
-								<reporter>FINDBUGS</reporter>
-								<folder>.</folder>
-								<pattern>.*/findbugs/.*\.xml$</pattern>
-							</violation>
-							<violation>
-								<reporter>PMD</reporter>
-								<folder>.</folder>
-								<pattern>.*/pmd/.*\.xml$</pattern>
-							</violation>
-							<violation>
-								<reporter>CHECKSTYLE</reporter>
-								<folder>.</folder>
-								<pattern>.*/checkstyle/.*\.xml$</pattern>
-							</violation>
-							<violation>
-								<reporter>JSHINT</reporter>
-								<folder>.</folder>
-								<pattern>.*/jshint/.*\.xml$</pattern>
-							</violation>
-							<violation>
-								<reporter>CSSLINT</reporter>
-								<folder>.</folder>
-								<pattern>.*/csslint/.*\.xml$</pattern>
-							</violation>
+							<parser>FINDBUGS</parser>
+							<reporter>Findbugs</reporter>
+							<folder>.</folder>
+							<pattern>.*/findbugs/.*\.xml$</pattern>
+						</violation>
+						<violation>
+							<parser>PMD</parser>
+							<reporter>PMD</reporter>
+							<folder>.</folder>
+							<pattern>.*/pmd/.*\.xml$</pattern>
+						</violation>
+						<violation>
+							<parser>CHECKSTYLE</parser>
+							<reporter>Checkstyle</reporter>
+							<folder>.</folder>
+							<pattern>.*/checkstyle/.*\.xml$</pattern>
+						</violation>
+						<violation>
+							<parser>JSHINT</parser>
+							<reporter>JSHint</reporter>
+							<folder>.</folder>
+							<pattern>.*/jshint/.*\.xml$</pattern>
+						</violation>
+						<violation>
+							<parser>CSSLINT</parser>
+							<reporter>CSSLint</reporter>
+							<folder>.</folder>
+							<pattern>.*/csslint/.*\.xml$</pattern>
 						</violation>
 					</violations>
 				</configuration>
