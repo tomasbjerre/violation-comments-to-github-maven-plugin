@@ -29,6 +29,7 @@
 					<createSingleFileComments>true</createSingleFileComments>
 					<commentOnlyChangedContent>true</commentOnlyChangedContent>
 					<minSeverity>INFO</minSeverity>
+					<keepOldComments>false</keepOldComments>
 					<violations>
 						<violation>
 							<parser>FINDBUGS</parser>

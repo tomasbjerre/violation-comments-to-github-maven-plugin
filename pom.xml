@@ -70,7 +70,7 @@
 		<dependency>
 			<groupId>se.bjurr.violations</groupId>
 			<artifactId>violation-comments-to-github-lib</artifactId>
-			<version>1.30</version>
+			<version>1.33</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>

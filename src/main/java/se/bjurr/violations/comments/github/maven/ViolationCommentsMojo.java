@@ -48,6 +48,8 @@ public class ViolationCommentsMojo extends AbstractMojo {
  private final boolean commentOnlyChangedContent = true;
  @Parameter(property = "minSeverity", required = false)
  private final SEVERITY minSeverity = INFO;
+ @Parameter(property = "keepOldComments", required = false)
+private boolean keepOldComments;
 
  @Override
  public void execute() throws MojoExecutionException {
@@ -55,7 +57,7 @@ public class ViolationCommentsMojo extends AbstractMojo {
    getLog().info("No pull request id defined, will not send violation comments to GitHub.");
    return;
   }
-  Integer pullRequestIdInt = Integer.valueOf(pullRequestId);
+  final Integer pullRequestIdInt = Integer.valueOf(pullRequestId);
   if (oAuth2Token != null) {
    getLog().info("Using OAuth2Token");
   } else if (username != null && password != null) {
@@ -68,8 +70,8 @@ public class ViolationCommentsMojo extends AbstractMojo {
   getLog().info("Will comment PR " + repositoryOwner + "/" + repositoryName + "/" + pullRequestId + " on " + gitHubUrl);
 
   List<Violation> allParsedViolations = new ArrayList<Violation>();
-  for (ViolationConfig configuredViolation : violations) {
-   List<Violation> parsedViolations = violationsReporterApi()//
+  for (final ViolationConfig configuredViolation : violations) {
+   final List<Violation> parsedViolations = violationsReporterApi()//
      .findAll(Parser.valueOf(configuredViolation.getParser()))//
      .inFolder(configuredViolation.getFolder())//
      .withPattern(configuredViolation.getPattern())//
@@ -92,8 +94,9 @@ public class ViolationCommentsMojo extends AbstractMojo {
      .withCreateCommentWithAllSingleFileComments(createCommentWithAllSingleFileComments)//
      .withCreateSingleFileComments(createSingleFileComments)//
      .withCommentOnlyChangedContent(commentOnlyChangedContent)//
+     .withKeepOldComments(keepOldComments)//
      .toPullRequest();
-  } catch (Exception e) {
+  } catch (final Exception e) {
    getLog().error("", e);
   }
  }

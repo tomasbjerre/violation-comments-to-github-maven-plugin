@@ -6,7 +6,7 @@
 **doc**
 
 
-[a53afb84f614a8d](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/a53afb84f614a8d) Tomas Bjerre *2017-07-15 10:23:28*
+[4245c6c4b7e06ba](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/4245c6c4b7e06ba) Tomas Bjerre *2017-07-15 10:55:55*
 
 
 ## violation-comments-to-github-maven-plugin-1.25
