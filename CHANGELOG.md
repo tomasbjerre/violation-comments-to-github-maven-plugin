@@ -3,6 +3,23 @@
 ## Unreleased
 ### No issue
 
+**Doc**
+
+
+[3194bf726662524](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/3194bf726662524) Tomas Bjerre *2017-09-02 12:13:30*
+
+
+## violation-comments-to-github-maven-plugin-1.26
+### No issue
+
+**Keeping comments and adjusting checkstyle**
+
+ * Checkstyle now allows empty source attribute. 
+ * Comments can optionaly be kept and not removed when new comments are added. 
+ * Will no longer re-create identical comments. 
+
+[dd8acbf67aa5d90](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/dd8acbf67aa5d90) Tomas Bjerre *2017-09-02 12:11:19*
+
 **doc**
 
 
