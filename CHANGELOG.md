@@ -3,10 +3,15 @@
 ## Unreleased
 ### No issue
 
+**Added handling for empty IssueType Description attributes for Resharper**
+
+
+[cea1bdc98160efb](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/cea1bdc98160efb) Tomas Bjerre *2017-10-09 16:52:22*
+
 **Doc**
 
 
-[3194bf726662524](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/3194bf726662524) Tomas Bjerre *2017-09-02 12:13:30*
+[5c6e5d95d4f28a2](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/5c6e5d95d4f28a2) Tomas Bjerre *2017-09-02 20:13:04*
 
 
 ## violation-comments-to-github-maven-plugin-1.26
