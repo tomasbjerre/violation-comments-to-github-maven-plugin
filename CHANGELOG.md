@@ -1,6 +1,15 @@
 # Changelog
 
-## Unreleased
+## violation-comments-to-github-maven-plugin-1.28
+### No issue
+
+**Resharper WikiUrl**
+
+
+[398f74dcb8fff6e](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/398f74dcb8fff6e) Tomas Bjerre *2017-10-13 11:30:38*
+
+
+## violation-comments-to-github-maven-plugin-1.27
 ### No issue
 
 **Added handling for empty IssueType Description attributes for Resharper**
