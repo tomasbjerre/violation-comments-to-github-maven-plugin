@@ -16,13 +16,10 @@
 	</scm>
 
 	<distributionManagement>
-		<snapshotRepository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-		</snapshotRepository>
 		<repository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+			<id>bintray-tomasbjerre-tomasbjerre</id>
+			<name>tomasbjerre-tomasbjerre</name>
+			<url>https://api.bintray.com/maven/tomasbjerre/tomasbjerre/${project.groupId}:${project.name}/;publish=1</url>
 		</repository>
 	</distributionManagement>
 
@@ -69,7 +66,7 @@
 		<dependency>
 			<groupId>se.bjurr.violations</groupId>
 			<artifactId>violation-comments-to-github-lib</artifactId>
-			<version>1.35</version>
+			<version>1.36</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
