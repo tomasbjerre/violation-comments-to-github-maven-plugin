@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+### No issue
+
+**Removing sign from pom**
+
+
+[477c90b51260ed5](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/477c90b51260ed5) Tomas Bjerre *2017-12-07 16:30:02*
+
+
 ## violation-comments-to-github-maven-plugin-1.29
 ### No issue
 
