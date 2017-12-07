@@ -1,5 +1,19 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.29
+### No issue
+
+**Accepting PMD files without ruleset-tag #15**
+
+
+[e4b26794e1be333](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/e4b26794e1be333) Tomas Bjerre *2017-12-07 16:25:23*
+
+**Doc**
+
+
+[b4aa952eb998459](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/b4aa952eb998459) Tomas Bjerre *2017-11-18 13:44:30*
+
+
 ## violation-comments-to-github-maven-plugin-1.28
 ### No issue
 
