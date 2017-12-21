@@ -3,6 +3,11 @@
 ## Unreleased
 ### No issue
 
+**DocFX**
+
+
+[d7425aeb288fcdb](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/d7425aeb288fcdb) Tomas Bjerre *2017-12-21 14:39:51*
+
 **Doc**
 
 
