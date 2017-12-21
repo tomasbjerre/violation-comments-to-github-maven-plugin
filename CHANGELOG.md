@@ -3,6 +3,15 @@
 ## Unreleased
 ### No issue
 
+**Doc**
+
+
+[195c68e732cad53](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/195c68e732cad53) Tomas Bjerre *2017-12-07 17:41:48*
+
+
+## violation-comments-to-github-maven-plugin-1.31
+### No issue
+
 **Removing sign from pom**
 
 
