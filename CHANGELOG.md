@@ -3,6 +3,20 @@
 ## Unreleased
 ### No issue
 
+**DocFX parsing JSON with Gson, not ScriptEngine**
+
+
+[0fa728e1ec9702a](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/0fa728e1ec9702a) Tomas Bjerre *2017-12-22 12:41:40*
+
+**Doc**
+
+
+[c1fde4c8cdb18f5](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/c1fde4c8cdb18f5) Tomas Bjerre *2017-12-21 14:57:37*
+
+
+## violation-comments-to-github-maven-plugin-1.32
+### No issue
+
 **DocFX**
 
 
