@@ -3,7 +3,6 @@ package se.bjurr.violations.comments.github.maven;
 import static org.apache.maven.plugins.annotations.LifecyclePhase.NONE;
 import static se.bjurr.violations.comments.github.lib.ViolationCommentsToGitHubApi.violationCommentsToGitHubApi;
 import static se.bjurr.violations.lib.ViolationsReporterApi.violationsReporterApi;
-import static se.bjurr.violations.lib.model.SEVERITY.INFO;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,23 +38,28 @@ public class ViolationCommentsMojo extends AbstractMojo {
  @Parameter(property = "password", required = false)
  private String password;
  @Parameter(property = "createCommentWithAllSingleFileComments", required = false)
- private final boolean createCommentWithAllSingleFileComments = false;
- @Parameter(property = "createSingleFileComments", required = false)
- private final boolean createSingleFileComments = true;
+ private  boolean createCommentWithAllSingleFileComments;
+ @Parameter(property = "createSingleFileComments", required = false, defaultValue="true")
+ private  boolean createSingleFileComments;
  @Parameter(property = "violations", required = false)
- private final List<ViolationConfig> violations = new ArrayList<ViolationConfig>();
- @Parameter(property = "commentOnlyChangedContent", required = false)
- private final boolean commentOnlyChangedContent = true;
- @Parameter(property = "minSeverity", required = false)
- private final SEVERITY minSeverity = INFO;
+ private  List<ViolationConfig> violations;
+ @Parameter(property = "commentOnlyChangedContent", required = false, defaultValue="true")
+ private  boolean commentOnlyChangedContent;
+ @Parameter(property = "minSeverity", required = false, defaultValue="INFO")
+ private  SEVERITY minSeverity;
  @Parameter(property = "keepOldComments", required = false)
 private boolean keepOldComments;
+
 
  @Override
  public void execute() throws MojoExecutionException {
   if (pullRequestId == null || pullRequestId.equalsIgnoreCase("false")) {
    getLog().info("No pull request id defined, will not send violation comments to GitHub.");
    return;
+  }
+  if (violations == null || violations.isEmpty()) {
+	   getLog().info("No violations configured.");
+	   return;
   }
   final Integer pullRequestIdInt = Integer.valueOf(pullRequestId);
   if (oAuth2Token != null) {

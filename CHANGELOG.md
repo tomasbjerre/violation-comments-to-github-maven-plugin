@@ -3,6 +3,15 @@
 ## Unreleased
 ### No issue
 
+**Doc**
+
+
+[537b5d35138b8da](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/537b5d35138b8da) Tomas Bjerre *2017-12-22 20:04:13*
+
+
+## violation-comments-to-github-maven-plugin-1.34
+### No issue
+
 **Bumping version to fix faulty release**
 
 
