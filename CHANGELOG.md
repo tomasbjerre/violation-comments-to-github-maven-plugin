@@ -3,6 +3,11 @@
 ## Unreleased
 ### No issue
 
+**Removing final from attributes**
+
+
+[e30379769be3ccd](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/e30379769be3ccd) Tomas Bjerre *2017-12-24 17:12:44*
+
 **Doc**
 
 
