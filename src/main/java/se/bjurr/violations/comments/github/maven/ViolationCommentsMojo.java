@@ -2,7 +2,7 @@ package se.bjurr.violations.comments.github.maven;
 
 import static org.apache.maven.plugins.annotations.LifecyclePhase.NONE;
 import static se.bjurr.violations.comments.github.lib.ViolationCommentsToGitHubApi.violationCommentsToGitHubApi;
-import static se.bjurr.violations.lib.ViolationsReporterApi.violationsReporterApi;
+import static se.bjurr.violations.lib.ViolationsApi.violationsApi;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -75,7 +75,7 @@ private boolean keepOldComments;
 
   List<Violation> allParsedViolations = new ArrayList<Violation>();
   for (final ViolationConfig configuredViolation : violations) {
-   final List<Violation> parsedViolations = violationsReporterApi()//
+   final List<Violation> parsedViolations = violationsApi()//
      .findAll(Parser.valueOf(configuredViolation.getParser()))//
      .inFolder(configuredViolation.getFolder())//
      .withPattern(configuredViolation.getPattern())//

@@ -3,6 +3,15 @@
 ## Unreleased
 ### No issue
 
+**Doc**
+
+
+[aff85b15abd1aae](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/aff85b15abd1aae) Tomas Bjerre *2017-12-24 17:21:15*
+
+
+## violation-comments-to-github-maven-plugin-1.35
+### No issue
+
 **Removing final from attributes**
 
 
