@@ -3,6 +3,11 @@
 ## Unreleased
 ### No issue
 
+**Fixing encoding issues**
+
+
+[bdb170fbfc1c1bf](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/bdb170fbfc1c1bf) Tomas Bjerre *2017-12-25 20:11:41*
+
 **Doc**
 
 
