@@ -16,7 +16,7 @@
 			<plugin>
 				<groupId>se.bjurr.violations</groupId>
 				<artifactId>violation-comments-to-github-maven-plugin</artifactId>
-				<version>1.37-SNAPSHOT</version>
+				<version>1.38-SNAPSHOT</version>
 				<configuration>
 					<username>${GITHUB_USERNAME}</username>
 					<password>${GITHUB_PASSWORD}</password>

@@ -3,6 +3,20 @@
 ## Unreleased
 ### No issue
 
+**Relocating to correct Java identifier**
+
+
+[c2ee11743cfa592](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/c2ee11743cfa592) Tomas Bjerre *2017-12-31 12:04:10*
+
+**Doc**
+
+
+[b7277a1f52637ac](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/b7277a1f52637ac) Tomas Bjerre *2017-12-25 20:15:05*
+
+
+## violation-comments-to-github-maven-plugin-1.36
+### No issue
+
 **Fixing encoding issues**
 
 
