@@ -1,6 +1,24 @@
 # Changelog
 
-## Unreleased
+## violation-comments-to-github-maven-plugin-1.39
+### No issue
+
+**PCLint**
+
+
+[dd50278a91668f6](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/dd50278a91668f6) Tomas Bjerre *2018-02-13 19:27:25*
+
+
+## violation-comments-to-github-maven-plugin-1.38
+### No issue
+
+**Google error-prone**
+
+
+[1bb8190beef5856](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/1bb8190beef5856) Tomas Bjerre *2018-01-14 12:16:43*
+
+
+## violation-comments-to-github-maven-plugin-1.37
 ### No issue
 
 **Relocating to correct Java identifier**
