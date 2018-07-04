@@ -1,7 +1,12 @@
 # Changelog
 
-## Unreleased
+## violation-comments-to-github-maven-plugin-1.41
 ### No issue
+
+**Custom template**
+
+
+[ca1b09a53894700](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/ca1b09a53894700) Tomas Bjerre *2018-07-04 08:01:29*
 
 **NullAway #33**
 
