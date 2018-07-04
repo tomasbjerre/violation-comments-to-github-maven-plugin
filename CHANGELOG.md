@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.42
+### No issue
+
+**GCC, ARM GCC and Doxygen**
+
+
+[f1dfc3987aeb8e5](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/f1dfc3987aeb8e5) Tomas Bjerre *2018-07-04 18:34:20*
+
+
 ## violation-comments-to-github-maven-plugin-1.41
 ### No issue
 
