@@ -10,13 +10,14 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>1.6</maven.compiler.target>
 		<maven.compiler.source>1.6</maven.compiler.source>
+		<plugin.version>1.41-SNAPSHOT</plugin.version>
 	</properties>
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>se.bjurr.violations</groupId>
 				<artifactId>violation-comments-to-github-maven-plugin</artifactId>
-				<version>1.41-SNAPSHOT</version>
+				<version>${plugin.version}</version>
 				<configuration>
 					<username>${GITHUB_USERNAME}</username>
 					<password>${GITHUB_PASSWORD}</password>
@@ -30,6 +31,17 @@
 					<commentOnlyChangedContent>true</commentOnlyChangedContent>
 					<minSeverity>INFO</minSeverity>
 					<keepOldComments>false</keepOldComments>
+					<commentTemplate>
+**Reporter**: {{violation.reporter}}{{#violation.rule}}
+
+**Rule**: {{violation.rule}}{{/violation.rule}}
+**Severity**: {{violation.severity}}
+**File**: {{violation.file}} L{{violation.startLine}}{{#violation.source}}
+
+**Source**: {{violation.source}}{{/violation.source}}
+
+{{violation.message}}
+					</commentTemplate>
 					<violations>
 						<violation>
 							<parser>FINDBUGS</parser>

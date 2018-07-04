@@ -49,6 +49,8 @@ public class ViolationCommentsMojo extends AbstractMojo {
  private  SEVERITY minSeverity;
  @Parameter(property = "keepOldComments", required = false)
 private boolean keepOldComments;
+ @Parameter(property = "commentTemplate", required = false)
+private String commentTemplate;
 
 
  @Override
@@ -73,7 +75,7 @@ private boolean keepOldComments;
 
   getLog().info("Will comment PR " + repositoryOwner + "/" + repositoryName + "/" + pullRequestId + " on " + gitHubUrl);
 
-  List<Violation> allParsedViolations = new ArrayList<Violation>();
+  List<Violation> allParsedViolations = new ArrayList<>();
   for (final ViolationConfig configuredViolation : violations) {
    final List<Violation> parsedViolations = violationsApi()//
      .findAll(Parser.valueOf(configuredViolation.getParser()))//
@@ -99,6 +101,7 @@ private boolean keepOldComments;
      .withCreateSingleFileComments(createSingleFileComments)//
      .withCommentOnlyChangedContent(commentOnlyChangedContent)//
      .withKeepOldComments(keepOldComments)//
+     .withCommentTemplate(commentTemplate)//
      .toPullRequest();
   } catch (final Exception e) {
    getLog().error("", e);
