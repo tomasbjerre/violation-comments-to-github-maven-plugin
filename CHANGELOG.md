@@ -1,5 +1,19 @@
 # Changelog
 
+## Unreleased
+### No issue
+
+**Correcting ownerName and CPD**
+
+
+[776361fc0528f59](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/776361fc0528f59) Tomas Bjerre *2018-09-13 05:09:39*
+
+**Updating readme with parsers**
+
+
+[7f38ad582d3a534](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/7f38ad582d3a534) Tomas Bjerre *2018-09-12 17:06:48*
+
+
 ## violation-comments-to-github-maven-plugin-1.42
 ### No issue
 
