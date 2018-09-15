@@ -1,6 +1,15 @@
 # Changelog
 
-## Unreleased
+## violation-comments-to-github-maven-plugin-1.44
+### No issue
+
+**YAMLLint**
+
+
+[0c99f1770d77e19](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/0c99f1770d77e19) Tomas Bjerre *2018-09-15 08:17:48*
+
+
+## violation-comments-to-github-maven-plugin-1.43
 ### No issue
 
 **Correcting ownerName and CPD**
