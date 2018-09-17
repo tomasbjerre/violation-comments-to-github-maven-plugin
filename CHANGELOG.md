@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.45
+### No issue
+
+**Fix optional rule in YAMLLint**
+
+
+[55799cd2e7ddd32](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/55799cd2e7ddd32) Tomas Bjerre *2018-09-17 13:55:26*
+
+
 ## violation-comments-to-github-maven-plugin-1.44
 ### No issue
 
