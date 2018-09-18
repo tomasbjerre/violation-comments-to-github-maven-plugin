@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.46
+### No issue
+
+**More information in log**
+
+
+[7e93a83c19aaf64](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/7e93a83c19aaf64) Tomas Bjerre *2018-09-18 10:10:42*
+
+
 ## violation-comments-to-github-maven-plugin-1.45
 ### No issue
 
