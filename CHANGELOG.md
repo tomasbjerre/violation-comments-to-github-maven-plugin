@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.47
+### No issue
+
+**Kotlin Maven and Gradle parsers**
+
+
+[e8a8e5a2f6d93be](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/e8a8e5a2f6d93be) Tomas Bjerre *2018-09-20 14:28:50*
+
+
 ## violation-comments-to-github-maven-plugin-1.46
 ### No issue
 
