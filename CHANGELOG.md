@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.48
+### No issue
+
+**Correcting Kotlin parsers**
+
+
+[b2f6358b2337c23](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/b2f6358b2337c23) Tomas Bjerre *2018-09-21 00:00:57*
+
+
 ## violation-comments-to-github-maven-plugin-1.47
 ### No issue
 
