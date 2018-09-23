@@ -1,5 +1,19 @@
 # Changelog
 
+## Unreleased
+### No issue
+
+**Doc**
+
+
+[6da4b454530d9c0](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/6da4b454530d9c0) Tomas Bjerre *2018-09-22 18:22:29*
+
+**Documenting parsers as a table**
+
+
+[821c112c5d4c7c1](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/821c112c5d4c7c1) Tomas Bjerre *2018-09-22 08:42:57*
+
+
 ## violation-comments-to-github-maven-plugin-1.48
 ### No issue
 
