@@ -44,6 +44,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>1.7</maven.compiler.target>
 		<maven.compiler.source>1.7</maven.compiler.source>
+		<changelog>1.55</changelog>
+		<violations>1.61</violations>
 	</properties>
 
 	<dependencies>
@@ -66,7 +68,7 @@
 		<dependency>
 			<groupId>se.bjurr.violations</groupId>
 			<artifactId>violation-comments-to-github-lib</artifactId>
-			<version>1.61</version>
+			<version>${violations}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -119,7 +121,7 @@
 			<plugin>
 				<groupId>se.bjurr.gitchangelog</groupId>
 				<artifactId>git-changelog-maven-plugin</artifactId>
-				<version>1.47</version>
+				<version>${changelog}</version>
 				<executions>
 					<execution>
 						<id>GenerateGitChangelog</id>

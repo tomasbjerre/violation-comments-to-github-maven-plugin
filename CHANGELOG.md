@@ -3,6 +3,11 @@
 ## Unreleased
 ### No issue
 
+**Automating reporters in readme**
+
+
+[5dce75780b22267](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/5dce75780b22267) Tomas Bjerre *2018-09-23 12:53:56*
+
 **Doc**
 
 
@@ -83,17 +88,20 @@
 
 
 ## violation-comments-to-github-maven-plugin-1.41
+### GitHub #33 
+
+**NullAway #33**
+
+
+[8743eda09d8e5b9](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/8743eda09d8e5b9) Tomas Bjerre *2018-04-14 05:11:51*
+
+
 ### No issue
 
 **Custom template**
 
 
 [ca1b09a53894700](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/ca1b09a53894700) Tomas Bjerre *2018-07-04 08:01:29*
-
-**NullAway #33**
-
-
-[8743eda09d8e5b9](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/8743eda09d8e5b9) Tomas Bjerre *2018-04-14 05:11:51*
 
 
 ## violation-comments-to-github-maven-plugin-1.40
@@ -217,12 +225,15 @@
 
 
 ## violation-comments-to-github-maven-plugin-1.29
-### No issue
+### GitHub #15 
 
 **Accepting PMD files without ruleset-tag #15**
 
 
 [e4b26794e1be333](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/e4b26794e1be333) Tomas Bjerre *2017-12-07 16:25:23*
+
+
+### No issue
 
 **Doc**
 
