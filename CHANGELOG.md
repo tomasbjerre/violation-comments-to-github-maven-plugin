@@ -1,7 +1,17 @@
 # Changelog
 
-## Unreleased
+## violation-comments-to-github-maven-plugin-1.49
 ### No issue
+
+**Including entire rule in Flake8**
+
+
+[3152bc97a6a36c7](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/3152bc97a6a36c7) Tomas Bjerre *2018-10-06 06:58:56*
+
+**Automatically stepping dependencies**
+
+
+[1a41de4a9e2a01c](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/1a41de4a9e2a01c) Tomas Bjerre *2018-09-23 15:13:23*
 
 **Automating reporters in readme**
 
