@@ -11,3 +11,5 @@ temp
 .gradle
 .couscous
 couscous.phar
+.idea
+.okhttpcache

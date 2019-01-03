@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.50
+### No issue
+
+**Correcting AnsibleLint parsing**
+
+
+[fe80fcfda0777a8](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/fe80fcfda0777a8) Tomas Bjerre *2019-01-03 17:45:39*
+
+
 ## violation-comments-to-github-maven-plugin-1.49
 ### No issue
 
