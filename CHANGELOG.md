@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.51
+### No issue
+
+**golangci-lint**
+
+
+[15241992fd094aa](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/15241992fd094aa) Tomas Bjerre *2019-03-07 16:08:59*
+
+
 ## violation-comments-to-github-maven-plugin-1.50
 ### No issue
 
