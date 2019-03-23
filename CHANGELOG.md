@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.52
+### No issue
+
+**Sonar Report**
+
+
+[8337b5c5a0e4784](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/8337b5c5a0e4784) Tomas Bjerre *2019-03-23 15:12:20*
+
+
 ## violation-comments-to-github-maven-plugin-1.51
 ### No issue
 
