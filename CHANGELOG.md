@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.53
+### No issue
+
+**Correcting Sonar severity**
+
+
+[c271ebdca992dcc](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/c271ebdca992dcc) Tomas Bjerre *2019-03-30 08:16:37*
+
+
 ## violation-comments-to-github-maven-plugin-1.52
 ### No issue
 
