@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.54
+### No issue
+
+**maxNumberOfComments**
+
+
+[f559fbc05551675](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/f559fbc05551675) Tomas Bjerre *2019-03-31 16:48:35*
+
+
 ## violation-comments-to-github-maven-plugin-1.53
 ### No issue
 
