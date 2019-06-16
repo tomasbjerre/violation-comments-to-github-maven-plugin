@@ -53,6 +53,9 @@ public class ViolationCommentsMojo extends AbstractMojo {
   @Parameter(property = "commentOnlyChangedContent", required = false, defaultValue = "true")
   private boolean commentOnlyChangedContent;
 
+  @Parameter(property = "commentOnlyChangedFiles", required = false, defaultValue = "true")
+  private boolean commentOnlyChangedFiles;
+
   @Parameter(property = "minSeverity", required = false, defaultValue = "INFO")
   private SEVERITY minSeverity;
 
@@ -124,6 +127,7 @@ public class ViolationCommentsMojo extends AbstractMojo {
           .withCreateCommentWithAllSingleFileComments(createCommentWithAllSingleFileComments) //
           .withCreateSingleFileComments(createSingleFileComments) //
           .withCommentOnlyChangedContent(commentOnlyChangedContent) //
+          .withCommentOnlyChangedFiles(commentOnlyChangedFiles) //
           .withKeepOldComments(keepOldComments) //
           .withCommentTemplate(commentTemplate) //
           .withMaxNumberOfViolations(maxNumberOfViolations) //
