@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.56
+### No issue
+
+**junit**
+
+
+[dbcc1d638ed9b88](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/dbcc1d638ed9b88) Tomas Bjerre *2019-06-16 16:41:26*
+
+
 ## violation-comments-to-github-maven-plugin-1.55
 ### No issue
 
