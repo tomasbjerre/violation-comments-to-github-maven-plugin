@@ -10,7 +10,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>1.6</maven.compiler.target>
 		<maven.compiler.source>1.6</maven.compiler.source>
-		<plugin.version>1.57-SNAPSHOT</plugin.version>
+		<plugin.version>1.58-SNAPSHOT</plugin.version>
 	</properties>
 	<build>
 		<plugins>
@@ -62,7 +62,7 @@
 							<pattern>.*/checkstyle/.*\.xml$</pattern>
 						</violation>
 						<violation>
-							<parser>JSHINT</parser>
+							<parser>JSLINT</parser>
 							<reporter>JSHint</reporter>
 							<folder>.</folder>
 							<pattern>.*/jshint/.*\.xml$</pattern>

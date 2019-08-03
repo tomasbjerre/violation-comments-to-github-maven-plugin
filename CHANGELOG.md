@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.57
+### No issue
+
+**Changing name of JSHINT parser to JSLINT**
+
+
+[77ecaac6587e4b3](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/77ecaac6587e4b3) Tomas Bjerre *2019-08-03 11:38:49*
+
+
 ## violation-comments-to-github-maven-plugin-1.56
 ### No issue
 
