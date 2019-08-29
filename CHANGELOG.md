@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.58
+### No issue
+
+**Removing newline before fingerprint**
+
+
+[03524084e12533d](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/03524084e12533d) Tomas Bjerre *2019-08-29 18:36:42*
+
+
 ## violation-comments-to-github-maven-plugin-1.57
 ### No issue
 
