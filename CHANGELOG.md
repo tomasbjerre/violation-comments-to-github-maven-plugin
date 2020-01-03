@@ -1,6 +1,14 @@
 # Changelog
 
-## Unreleased
+## violation-comments-to-github-maven-plugin-1.59
+### GitHub #80 
+
+**Add support for sonar issue report formats >= v7.5 tomasbjerre/violations-lib#80**
+
+
+[d89ff72a00fc2b8](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/d89ff72a00fc2b8) Tomas Bjerre *2020-01-03 07:28:30*
+
+
 ### No issue
 
 **Create FUNDING.yml**
