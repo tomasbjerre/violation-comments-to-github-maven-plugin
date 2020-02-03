@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.60
+### GitHub #82 
+
+**CPPCheckParser with auto closed <error/> tags tomasbjerre/violations-lib#82**
+
+
+[d18a933a7a0d65a](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/d18a933a7a0d65a) Tomas Bjerre *2020-02-03 16:31:47*
+
+
 ## violation-comments-to-github-maven-plugin-1.59
 ### GitHub #80 
 
