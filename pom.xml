@@ -46,7 +46,7 @@
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<changelog>1.61</changelog>
 		<violations>1.80</violations>
-		<violations-lib>1.108</violations-lib>
+		<violations-lib>1.110</violations-lib>
 		<fmt>2.6.0</fmt>
 	</properties>
 
