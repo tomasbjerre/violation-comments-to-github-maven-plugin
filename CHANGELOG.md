@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.61
+### GitHub #9 
+
+**Correcting line in single file comments tomasbjerre/violation-comments-to-github-lib#9**
+
+
+[e7ce219ebbcd321](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/e7ce219ebbcd321) Tomas Bjerre *2020-04-28 17:11:41*
+
+
 ## violation-comments-to-github-maven-plugin-1.60
 ### GitHub #82 
 
