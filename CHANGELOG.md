@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+### No issue
+
+**New: custom logging in violations-lib**
+
+
+[6dd86b3321d5051](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/6dd86b3321d5051) Tomas Bjerre *2020-07-05 13:46:44*
+
+
 ## violation-comments-to-github-maven-plugin-1.61
 ### GitHub #9 
 
