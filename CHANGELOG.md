@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## violation-comments-to-github-maven-plugin-1.62
 ### No issue
 
 **New: custom logging in violations-lib**
