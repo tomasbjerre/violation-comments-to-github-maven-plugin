@@ -116,6 +116,8 @@ public class ViolationCommentsMojo extends AbstractMojo {
               ViolationCommentsMojo.this.getLog().error(string);
             } else if (level == Level.WARNING) {
               ViolationCommentsMojo.this.getLog().warn(string);
+            } else {
+              ViolationCommentsMojo.this.getLog().info(string);
             }
           }
 
@@ -127,6 +129,8 @@ public class ViolationCommentsMojo extends AbstractMojo {
               ViolationCommentsMojo.this.getLog().error(string, t);
             } else if (level == Level.WARNING) {
               ViolationCommentsMojo.this.getLog().warn(string, t);
+            } else {
+              ViolationCommentsMojo.this.getLog().info(string);
             }
           }
         };
