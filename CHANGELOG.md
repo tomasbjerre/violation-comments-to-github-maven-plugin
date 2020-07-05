@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.64
+### No issue
+
+**New: custom logging in violations-lib**
+
+
+[34de8850c1afee1](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/34de8850c1afee1) Tomas Bjerre *2020-07-05 15:16:16*
+
+
 ## violation-comments-to-github-maven-plugin-1.62
 ### No issue
 
