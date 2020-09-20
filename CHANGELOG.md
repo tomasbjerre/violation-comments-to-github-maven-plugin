@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-github-maven-plugin-1.65
+### No issue
+
+**violations-lib 1.128**
+
+
+[8498cc4977ec9e7](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/8498cc4977ec9e7) Tomas Bjerre *2020-09-20 13:36:57*
+
+
 ## violation-comments-to-github-maven-plugin-1.64
 ### No issue
 
