@@ -6,6 +6,44 @@
 **[maven-release-plugin] prepare for next development iteration**
 
 
+[17e6292009a8dde](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/17e6292009a8dde) Tomas Bjerre *2022-03-27 06:59:08*
+
+
+## violation-comments-to-github-maven-plugin-1.67
+### No issue
+
+**[maven-release-plugin] prepare release violation-comments-to-github-maven-plugin-1.67**
+
+
+[f8a7dda0b55ba7e](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/f8a7dda0b55ba7e) Tomas Bjerre *2022-03-27 06:59:04*
+
+**chore: nexus**
+
+
+[508aedc973e2254](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/508aedc973e2254) Tomas Bjerre *2022-03-27 06:58:50*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[b4c39e2be7ee20d](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/b4c39e2be7ee20d) Tomas Bjerre *2022-03-27 06:54:16*
+
+
+## violation-comments-to-github-maven-plugin-1.66
+### No issue
+
+**[maven-release-plugin] prepare release violation-comments-to-github-maven-plugin-1.66**
+
+
+[6780f3816822403](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/6780f3816822403) Tomas Bjerre *2022-03-27 06:54:12*
+
+**feat: stepping lib versions**
+
+
+[b73d7fe707288d3](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/b73d7fe707288d3) Tomas Bjerre *2022-03-27 06:53:54*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
 [eb8d3cfca4ae69b](https://github.com/tomasbjerre/violation-comments-to-github-maven-plugin/commit/eb8d3cfca4ae69b) Tomas Bjerre *2020-09-20 13:38:47*
 
 
